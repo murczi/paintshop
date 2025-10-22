@@ -1,12 +1,12 @@
-using PaintShop.Application.Abstractions;
 using PaintShop.Domain;
+using PaintShop.Domain.Interfaces;
 using PaintShop.Infrastructure.Model;
 
 namespace PaintShop.Infrastructure;
 
-public class Repository : BaseRepository, IRepository
+public class ProductRepository : BaseRepository, IProductRepository
 {
-    public Repository(AppDbContext context) : base(context) { }
+    public ProductRepository(AppDbContext context) : base(context) { }
 
 
     public IEnumerable<Product> GetAllProducts()

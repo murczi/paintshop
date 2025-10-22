@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "6vSDsfuKA2I=",
+  "dgSpecHash": "/Xc/QSpT5QE=",
   "success": true,
   "projectFilePath": "/home/shuji/vsProjects/paintshop/src/PaintShop.Domain/PaintShop.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/shuji/.nuget/packages/isopoh.cryptography.argon2/2.0.0/isopoh.cryptography.argon2.2.0.0.nupkg.sha512",
+    "/home/shuji/.nuget/packages/isopoh.cryptography.blake2b/2.0.0/isopoh.cryptography.blake2b.2.0.0.nupkg.sha512",
+    "/home/shuji/.nuget/packages/isopoh.cryptography.securearray/2.0.0/isopoh.cryptography.securearray.2.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -2,7 +2,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\PaintShop.Domain\PaintShop.Domain.csproj" />
-    <ProjectReference Include="..\PaintShop.Application\PaintShop.Application.csproj" />
   </ItemGroup>
 
   <ItemGroup>

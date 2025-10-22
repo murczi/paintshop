@@ -16,7 +16,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\PaintShop.Application\PaintShop.Application.csproj" />
     <ProjectReference Include="..\PaintShop.Infrastructure\PaintShop.Infrastructure.csproj" />
     <ProjectReference Include="..\PaintShop.Domain\PaintShop.Domain.csproj" />
   </ItemGroup>

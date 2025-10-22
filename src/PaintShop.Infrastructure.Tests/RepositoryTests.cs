@@ -14,7 +14,7 @@ public class RepositoryTests
     public void AddNewProduct_SavesToDatabase()
     {
         using var context = InMemoryDb.CreateContext();
-        var repo = new Repository(context);
+        var repo = new ProductRepository(context);
 
         var product = new Product
         {
@@ -43,7 +43,7 @@ public class RepositoryTests
     public void GetAllProducts_ReturnsEmpty_WhenNoProducts()
     {
         using var context = InMemoryDb.CreateContext();
-        var repo = new Repository(context);
+        var repo = new ProductRepository(context);
 
         var products = repo.GetAllProducts().ToList();
 

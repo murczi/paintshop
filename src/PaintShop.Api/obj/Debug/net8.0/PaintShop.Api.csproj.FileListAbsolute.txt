@@ -112,10 +112,8 @@
 /home/shuji/vsProjects/paintshop/src/PaintShop.Api/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 /home/shuji/vsProjects/paintshop/src/PaintShop.Api/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 /home/shuji/vsProjects/paintshop/src/PaintShop.Api/bin/Debug/net8.0/runtimes/browser/lib/net8.0/System.Text.Encodings.Web.dll
-/home/shuji/vsProjects/paintshop/src/PaintShop.Api/bin/Debug/net8.0/PaintShop.Application.dll
 /home/shuji/vsProjects/paintshop/src/PaintShop.Api/bin/Debug/net8.0/PaintShop.Domain.dll
 /home/shuji/vsProjects/paintshop/src/PaintShop.Api/bin/Debug/net8.0/PaintShop.Infrastructure.dll
-/home/shuji/vsProjects/paintshop/src/PaintShop.Api/bin/Debug/net8.0/PaintShop.Application.pdb
 /home/shuji/vsProjects/paintshop/src/PaintShop.Api/bin/Debug/net8.0/PaintShop.Infrastructure.pdb
 /home/shuji/vsProjects/paintshop/src/PaintShop.Api/bin/Debug/net8.0/PaintShop.Domain.pdb
 /home/shuji/vsProjects/paintshop/src/PaintShop.Api/obj/Debug/net8.0/PaintShop.Api.csproj.AssemblyReference.cache
@@ -139,3 +137,7 @@
 /home/shuji/vsProjects/paintshop/src/PaintShop.Api/obj/Debug/net8.0/PaintShop.Api.pdb
 /home/shuji/vsProjects/paintshop/src/PaintShop.Api/obj/Debug/net8.0/PaintShop.Api.genruntimeconfig.cache
 /home/shuji/vsProjects/paintshop/src/PaintShop.Api/obj/Debug/net8.0/ref/PaintShop.Api.dll
+/home/shuji/vsProjects/paintshop/src/PaintShop.Api/bin/Debug/net8.0/Isopoh.Cryptography.Argon2.dll
+/home/shuji/vsProjects/paintshop/src/PaintShop.Api/bin/Debug/net8.0/Isopoh.Cryptography.Blake2b.dll
+/home/shuji/vsProjects/paintshop/src/PaintShop.Api/bin/Debug/net8.0/Isopoh.Cryptography.SecureArray.dll
+/home/shuji/vsProjects/paintshop/src/PaintShop.Api/obj/Debug/net8.0/PaintShop.Api.sourcelink.json
