@@ -13,3 +13,4 @@
 /home/shuji/vsProjects/paintshop/src/PaintShop.Application/obj/Debug/net8.0/refint/PaintShop.Application.dll
 /home/shuji/vsProjects/paintshop/src/PaintShop.Application/obj/Debug/net8.0/PaintShop.Application.pdb
 /home/shuji/vsProjects/paintshop/src/PaintShop.Application/obj/Debug/net8.0/ref/PaintShop.Application.dll
+/home/shuji/vsProjects/paintshop/src/PaintShop.Application/obj/Debug/net8.0/PaintShop.Application.sourcelink.json

@@ -17,3 +17,4 @@
 /home/shuji/vsProjects/paintshop/src/PaintShop.Infrastructure/obj/Debug/net8.0/ref/PaintShop.Infrastructure.dll
 /home/shuji/vsProjects/paintshop/src/PaintShop.Infrastructure/bin/Debug/net8.0/PaintShop.Application.dll
 /home/shuji/vsProjects/paintshop/src/PaintShop.Infrastructure/bin/Debug/net8.0/PaintShop.Application.pdb
+/home/shuji/vsProjects/paintshop/src/PaintShop.Infrastructure/obj/Debug/net8.0/PaintShop.Infrastructure.sourcelink.json

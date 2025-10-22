@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaintShop.Infrastructure", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaintShop.Application", "src\PaintShop.Application\PaintShop.Application.csproj", "{F92E7055-15ED-406B-B730-9459E1D825C1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaintShop.Infrastructure.Tests", "src\PaintShop.Infrastructure.Tests\PaintShop.Infrastructure.Tests.csproj", "{7DAA21AC-C4BF-49A6-8D2C-CFA2B1AE552E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -38,11 +40,16 @@ Global
 		{F92E7055-15ED-406B-B730-9459E1D825C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F92E7055-15ED-406B-B730-9459E1D825C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F92E7055-15ED-406B-B730-9459E1D825C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DAA21AC-C4BF-49A6-8D2C-CFA2B1AE552E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DAA21AC-C4BF-49A6-8D2C-CFA2B1AE552E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DAA21AC-C4BF-49A6-8D2C-CFA2B1AE552E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DAA21AC-C4BF-49A6-8D2C-CFA2B1AE552E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{A97C2811-F6BF-461E-B0C2-E24EE432A01E} = {7A14580E-BF15-4346-8901-26C40CE86923}
 		{95FABB8C-7033-445A-9DAB-3122227B9E0C} = {7A14580E-BF15-4346-8901-26C40CE86923}
 		{D97C2431-3A1E-44D6-85CA-6CAC05C387B1} = {7A14580E-BF15-4346-8901-26C40CE86923}
 		{F92E7055-15ED-406B-B730-9459E1D825C1} = {7A14580E-BF15-4346-8901-26C40CE86923}
+		{7DAA21AC-C4BF-49A6-8D2C-CFA2B1AE552E} = {7A14580E-BF15-4346-8901-26C40CE86923}
 	EndGlobalSection
 EndGlobal
