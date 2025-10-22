@@ -1,0 +1,17 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "PaintShop.Api",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "${workspaceFolder}/src/PaintShop.Api/bin/Debug/net8.0/PaintShop.Api.dll",
+      "cwd": "${workspaceFolder}/src/PaintShop.Api",
+      "env": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "DB_CONN": "Server=127.0.0.1;Port=3306;Database=dbo;User Id=root;Password=mypass;TreatTinyAsBoolean=true"
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+/home/shuji/vsProjects/paintshop/src/PaintShop.Domain/bin/Debug/net8.0/PaintShop.Domain.deps.json
+/home/shuji/vsProjects/paintshop/src/PaintShop.Domain/bin/Debug/net8.0/PaintShop.Domain.dll
+/home/shuji/vsProjects/paintshop/src/PaintShop.Domain/bin/Debug/net8.0/PaintShop.Domain.pdb
+/home/shuji/vsProjects/paintshop/src/PaintShop.Domain/obj/Debug/net8.0/PaintShop.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/shuji/vsProjects/paintshop/src/PaintShop.Domain/obj/Debug/net8.0/PaintShop.Domain.AssemblyInfoInputs.cache
+/home/shuji/vsProjects/paintshop/src/PaintShop.Domain/obj/Debug/net8.0/PaintShop.Domain.AssemblyInfo.cs
+/home/shuji/vsProjects/paintshop/src/PaintShop.Domain/obj/Debug/net8.0/PaintShop.Domain.csproj.CoreCompileInputs.cache
+/home/shuji/vsProjects/paintshop/src/PaintShop.Domain/obj/Debug/net8.0/PaintShop.Domain.dll
+/home/shuji/vsProjects/paintshop/src/PaintShop.Domain/obj/Debug/net8.0/refint/PaintShop.Domain.dll
+/home/shuji/vsProjects/paintshop/src/PaintShop.Domain/obj/Debug/net8.0/PaintShop.Domain.pdb
+/home/shuji/vsProjects/paintshop/src/PaintShop.Domain/obj/Debug/net8.0/ref/PaintShop.Domain.dll
