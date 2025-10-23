@@ -15,6 +15,7 @@ public class AppDbContext : DbContext
     public virtual DbSet<ColorEntity> Color { get; set; }
     public virtual DbSet<BrandEntity> Brand { get; set; }
     public virtual DbSet<ImageEntity> Image { get; set; }
+    public virtual DbSet<ReviewEntity> Review { get; set; }
 
     protected override void OnModelCreating(ModelBuilder builder)
     {
@@ -25,6 +26,6 @@ public class AppDbContext : DbContext
         builder.ApplyConfiguration(new ColorConfiguration());
         builder.ApplyConfiguration(new BrandConfiguration());
         builder.ApplyConfiguration(new ImageConfiguration());
-
+        builder.ApplyConfiguration(new ReviewConfiguration());
     }
 }

@@ -4,6 +4,7 @@ namespace PaintShop.Infrastructure.Model
     {
         public ProductEntity(){
             Images = new HashSet<ImageEntity>();
+            Reviews = new HashSet<ReviewEntity>();
         }
 
         public int Id { get; set; }
@@ -21,5 +22,6 @@ namespace PaintShop.Infrastructure.Model
         public virtual ColorEntity Color { get; set; }
         public virtual BrandEntity Brand { get; set; }
         public virtual StockEntity Stock { get; set; }
+        public virtual ICollection<ReviewEntity> Reviews { get; set; }
     }
 }
