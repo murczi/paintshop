@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PaintShop.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+43cf22def53499fdc4889891fbce8cd1d595cb11")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+873607978e34769099c701e8e3be08080e2777f5")]
 [assembly: System.Reflection.AssemblyProductAttribute("PaintShop.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PaintShop.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

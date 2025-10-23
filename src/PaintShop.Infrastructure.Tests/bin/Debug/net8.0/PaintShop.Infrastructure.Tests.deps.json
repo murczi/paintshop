@@ -1194,17 +1194,6 @@
         }
       },
       "xunit.runner.visualstudio/2.5.3": {},
-      "PaintShop.Application/1.0.0": {
-        "dependencies": {
-          "PaintShop.Domain": "1.0.0"
-        },
-        "runtime": {
-          "PaintShop.Application.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
       "PaintShop.Domain/1.0.0": {
         "runtime": {
           "PaintShop.Domain.dll": {
@@ -1216,7 +1205,6 @@
       "PaintShop.Infrastructure/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "9.0.10",
-          "PaintShop.Application": "1.0.0",
           "PaintShop.Domain": "1.0.0",
           "Pomelo.EntityFrameworkCore.MySql": "9.0.0"
         },
@@ -1969,11 +1957,6 @@
       "sha512": "sha512-HFFL6O+QLEOfs555SqHii48ovVa4CqGYanY+B32BjLpPptdE+wEJmCFNXlLHdEOD5LYeayb9EroaUpydGpcybg==",
       "path": "xunit.runner.visualstudio/2.5.3",
       "hashPath": "xunit.runner.visualstudio.2.5.3.nupkg.sha512"
-    },
-    "PaintShop.Application/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
     },
     "PaintShop.Domain/1.0.0": {
       "type": "project",

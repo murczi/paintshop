@@ -102,11 +102,9 @@
 /home/shuji/vsProjects/paintshop/src/PaintShop.Infrastructure.Tests/bin/Debug/net8.0/zh-Hant/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
 /home/shuji/vsProjects/paintshop/src/PaintShop.Infrastructure.Tests/bin/Debug/net8.0/zh-Hant/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 /home/shuji/vsProjects/paintshop/src/PaintShop.Infrastructure.Tests/bin/Debug/net8.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-/home/shuji/vsProjects/paintshop/src/PaintShop.Infrastructure.Tests/bin/Debug/net8.0/PaintShop.Application.dll
 /home/shuji/vsProjects/paintshop/src/PaintShop.Infrastructure.Tests/bin/Debug/net8.0/PaintShop.Domain.dll
 /home/shuji/vsProjects/paintshop/src/PaintShop.Infrastructure.Tests/bin/Debug/net8.0/PaintShop.Infrastructure.dll
 /home/shuji/vsProjects/paintshop/src/PaintShop.Infrastructure.Tests/bin/Debug/net8.0/PaintShop.Infrastructure.pdb
-/home/shuji/vsProjects/paintshop/src/PaintShop.Infrastructure.Tests/bin/Debug/net8.0/PaintShop.Application.pdb
 /home/shuji/vsProjects/paintshop/src/PaintShop.Infrastructure.Tests/bin/Debug/net8.0/PaintShop.Domain.pdb
 /home/shuji/vsProjects/paintshop/src/PaintShop.Infrastructure.Tests/obj/Debug/net8.0/PaintShop.Infrastructure.Tests.csproj.AssemblyReference.cache
 /home/shuji/vsProjects/paintshop/src/PaintShop.Infrastructure.Tests/obj/Debug/net8.0/PaintShop.Infrastructure.Tests.GeneratedMSBuildEditorConfig.editorconfig
