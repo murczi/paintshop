@@ -28,7 +28,6 @@
             "name": "PaintShopDb",
             "database": "dbo",
             "username": "root",
-            "password": "P4in+"
         }
     ]
 }
