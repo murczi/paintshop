@@ -118,3 +118,6 @@
 /home/shuji/vsProjects/paintshop/src/PaintShop.Infrastructure.Tests/obj/Debug/net8.0/PaintShop.Infrastructure.Tests.pdb
 /home/shuji/vsProjects/paintshop/src/PaintShop.Infrastructure.Tests/obj/Debug/net8.0/PaintShop.Infrastructure.Tests.genruntimeconfig.cache
 /home/shuji/vsProjects/paintshop/src/PaintShop.Infrastructure.Tests/obj/Debug/net8.0/ref/PaintShop.Infrastructure.Tests.dll
+/home/shuji/vsProjects/paintshop/src/PaintShop.Infrastructure.Tests/bin/Debug/net8.0/Isopoh.Cryptography.Argon2.dll
+/home/shuji/vsProjects/paintshop/src/PaintShop.Infrastructure.Tests/bin/Debug/net8.0/Isopoh.Cryptography.Blake2b.dll
+/home/shuji/vsProjects/paintshop/src/PaintShop.Infrastructure.Tests/bin/Debug/net8.0/Isopoh.Cryptography.SecureArray.dll

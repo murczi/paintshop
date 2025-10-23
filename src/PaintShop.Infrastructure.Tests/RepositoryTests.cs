@@ -1,13 +1,9 @@
-using System;
-using System.Linq;
 using PaintShop.Domain;
-using PaintShop.Infrastructure;
 using PaintShop.Infrastructure.Tests.TestHelpers;
-using Xunit;
 
 namespace PaintShop.Infrastructure.Tests;
 
-public class RepositoryTests
+public class ProductRepositoryTests
 {
 
     [Fact]
