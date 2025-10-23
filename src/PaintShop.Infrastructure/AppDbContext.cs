@@ -16,6 +16,8 @@ public class AppDbContext : DbContext
     public virtual DbSet<BrandEntity> Brand { get; set; }
     public virtual DbSet<ImageEntity> Image { get; set; }
     public virtual DbSet<ReviewEntity> Review { get; set; }
+    public virtual DbSet<OrderEntity> Order { get; set; }
+    public virtual DbSet<ProductsToOrderEntity> ProductsToOrder { get; set; }
 
     protected override void OnModelCreating(ModelBuilder builder)
     {
@@ -27,5 +29,7 @@ public class AppDbContext : DbContext
         builder.ApplyConfiguration(new BrandConfiguration());
         builder.ApplyConfiguration(new ImageConfiguration());
         builder.ApplyConfiguration(new ReviewConfiguration());
+        builder.ApplyConfiguration(new OrderConfiguration());
+        builder.ApplyConfiguration(new ProductsToOrderConfiguration());
     }
 }

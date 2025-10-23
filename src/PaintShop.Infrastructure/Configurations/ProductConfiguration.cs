@@ -30,9 +30,9 @@ public class ProductConfiguration : IEntityTypeConfiguration<ProductEntity>
                .HasForeignKey(p => p.ColorId)
                .OnDelete(DeleteBehavior.Cascade);
 
-        builder.HasOne(p => p.Brand)
-               .WithMany(b => b.Products)
-               .HasForeignKey(p => p.BrandId)
-               .OnDelete(DeleteBehavior.Cascade);
+       builder.HasOne(p => p.Brand)
+              .WithMany(b => b.Products)
+              .HasForeignKey(p => p.BrandId)
+              .OnDelete(DeleteBehavior.Cascade);
     }
 }
