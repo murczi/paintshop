@@ -14,6 +14,21 @@
             "database": "dbo",
             "username": "root",
             "askForPassword": true
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "static.140.219.99.91.clients.your-server.de",
+            "port": 3306,
+            "driver": "MariaDB",
+            "name": "PaintShopDb",
+            "database": "dbo",
+            "username": "root",
+            "password": "P4in+"
         }
     ]
 }

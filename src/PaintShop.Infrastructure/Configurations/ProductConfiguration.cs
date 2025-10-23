@@ -14,10 +14,25 @@ public class ProductConfiguration : IEntityTypeConfiguration<ProductEntity>
         builder.Property(p => p.Name)
         .HasMaxLength(100);
         
-        builder.Property(p => p.Description)
+        builder.Property(p => p.Desc)
         .HasMaxLength(100);
 
         builder.Property(p => p.IsEnabled)
         .HasDefaultValue(true);
+
+        builder.HasOne(p => p.UseCase)
+               .WithMany(b => b.Products)
+               .HasForeignKey(p => p.UseCaseId)
+               .OnDelete(DeleteBehavior.Cascade);
+
+        builder.HasOne(p => p.Color)
+               .WithMany(b => b.Products)
+               .HasForeignKey(p => p.ColorId)
+               .OnDelete(DeleteBehavior.Cascade);
+
+        builder.HasOne(p => p.Brand)
+               .WithMany(b => b.Products)
+               .HasForeignKey(p => p.BrandId)
+               .OnDelete(DeleteBehavior.Cascade);
     }
 }

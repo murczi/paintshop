@@ -16,9 +16,8 @@ public class ProductRepository : BaseRepository, IProductRepository
                              {
                                  Id = p.Id,
                                  Name = p.Name,
-                                 Description = p.Description,
+                                 Description = p.Desc,
                                  Price = p.Price,
-                                 Stock = p.Stock,
                                  IsEnabled=p.IsEnabled
                              };
         return productsFromDb;
@@ -28,10 +27,8 @@ public class ProductRepository : BaseRepository, IProductRepository
         context.Product.Add(new ProductEntity
         {
             Name = product.Name,
-            Description = product.Description,
-            Price = product.Price,
-            Stock = product.Stock,
-            IsEnabled = product.IsEnabled
+            Desc = product.Description,
+            Price = product.Price
         });
 
         context.SaveChanges();
