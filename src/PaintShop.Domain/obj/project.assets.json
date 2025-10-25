@@ -129,11 +129,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/shuji/vsProjects/paintshop/src/PaintShop.Domain/PaintShop.Domain.csproj",
+      "projectUniqueName": "/home/shuji/RiderProjects/paintshop/src/PaintShop.Domain/PaintShop.Domain.csproj",
       "projectName": "PaintShop.Domain",
-      "projectPath": "/home/shuji/vsProjects/paintshop/src/PaintShop.Domain/PaintShop.Domain.csproj",
+      "projectPath": "/home/shuji/RiderProjects/paintshop/src/PaintShop.Domain/PaintShop.Domain.csproj",
       "packagesPath": "/home/shuji/.nuget/packages/",
-      "outputPath": "/home/shuji/vsProjects/paintshop/src/PaintShop.Domain/obj/",
+      "outputPath": "/home/shuji/RiderProjects/paintshop/src/PaintShop.Domain/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/shuji/.nuget/NuGet/NuGet.Config"

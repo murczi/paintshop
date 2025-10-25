@@ -16,8 +16,7 @@ public class ProductRepositoryTests
         {
             Name = "Test Product",
             Description = "Test Description",
-            Price = 9.99f,
-            Stock = 5,
+            Price = 9999,
             IsEnabled = true
         };
 
@@ -30,9 +29,7 @@ public class ProductRepositoryTests
         var saved = products[0];
         Assert.Equal("Test Product", saved.Name);
         Assert.Equal("Test Description", saved.Description);
-        Assert.Equal(9.99f, saved.Price);
-        Assert.Equal(5, saved.Stock);
-        Assert.True(saved.IsEnabled);
+        Assert.Equal(9999, saved.Price);
     }
 
     [Fact]

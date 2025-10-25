@@ -6383,11 +6383,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/shuji/vsProjects/paintshop/src/PaintShop.Infrastructure.Tests/PaintShop.Infrastructure.Tests.csproj",
+      "projectUniqueName": "/home/shuji/RiderProjects/paintshop/src/PaintShop.Infrastructure.Tests/PaintShop.Infrastructure.Tests.csproj",
       "projectName": "PaintShop.Infrastructure.Tests",
-      "projectPath": "/home/shuji/vsProjects/paintshop/src/PaintShop.Infrastructure.Tests/PaintShop.Infrastructure.Tests.csproj",
+      "projectPath": "/home/shuji/RiderProjects/paintshop/src/PaintShop.Infrastructure.Tests/PaintShop.Infrastructure.Tests.csproj",
       "packagesPath": "/home/shuji/.nuget/packages/",
-      "outputPath": "/home/shuji/vsProjects/paintshop/src/PaintShop.Infrastructure.Tests/obj/",
+      "outputPath": "/home/shuji/RiderProjects/paintshop/src/PaintShop.Infrastructure.Tests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/shuji/.nuget/NuGet/NuGet.Config"
@@ -6402,8 +6402,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/home/shuji/vsProjects/paintshop/src/PaintShop.Infrastructure/PaintShop.Infrastructure.csproj": {
-              "projectPath": "/home/shuji/vsProjects/paintshop/src/PaintShop.Infrastructure/PaintShop.Infrastructure.csproj"
+            "/home/shuji/RiderProjects/paintshop/src/PaintShop.Infrastructure/PaintShop.Infrastructure.csproj": {
+              "projectPath": "/home/shuji/RiderProjects/paintshop/src/PaintShop.Infrastructure/PaintShop.Infrastructure.csproj"
             }
           }
         }

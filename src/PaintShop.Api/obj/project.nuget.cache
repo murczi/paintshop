@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3JFUG+34puI=",
+  "dgSpecHash": "9ZqK56Zo4VA=",
   "success": true,
-  "projectFilePath": "/home/shuji/vsProjects/paintshop/src/PaintShop.Api/PaintShop.Api.csproj",
+  "projectFilePath": "/home/shuji/RiderProjects/paintshop/src/PaintShop.Api/PaintShop.Api.csproj",
   "expectedPackageFiles": [
     "/home/shuji/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/home/shuji/.nuget/packages/isopoh.cryptography.argon2/2.0.0/isopoh.cryptography.argon2.2.0.0.nupkg.sha512",

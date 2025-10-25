@@ -3559,11 +3559,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/shuji/vsProjects/paintshop/src/PaintShop.Api/PaintShop.Api.csproj",
+      "projectUniqueName": "/home/shuji/RiderProjects/paintshop/src/PaintShop.Api/PaintShop.Api.csproj",
       "projectName": "PaintShop.Api",
-      "projectPath": "/home/shuji/vsProjects/paintshop/src/PaintShop.Api/PaintShop.Api.csproj",
+      "projectPath": "/home/shuji/RiderProjects/paintshop/src/PaintShop.Api/PaintShop.Api.csproj",
       "packagesPath": "/home/shuji/.nuget/packages/",
-      "outputPath": "/home/shuji/vsProjects/paintshop/src/PaintShop.Api/obj/",
+      "outputPath": "/home/shuji/RiderProjects/paintshop/src/PaintShop.Api/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/shuji/.nuget/NuGet/NuGet.Config"
@@ -3578,11 +3578,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/home/shuji/vsProjects/paintshop/src/PaintShop.Domain/PaintShop.Domain.csproj": {
-              "projectPath": "/home/shuji/vsProjects/paintshop/src/PaintShop.Domain/PaintShop.Domain.csproj"
+            "/home/shuji/RiderProjects/paintshop/src/PaintShop.Domain/PaintShop.Domain.csproj": {
+              "projectPath": "/home/shuji/RiderProjects/paintshop/src/PaintShop.Domain/PaintShop.Domain.csproj"
             },
-            "/home/shuji/vsProjects/paintshop/src/PaintShop.Infrastructure/PaintShop.Infrastructure.csproj": {
-              "projectPath": "/home/shuji/vsProjects/paintshop/src/PaintShop.Infrastructure/PaintShop.Infrastructure.csproj"
+            "/home/shuji/RiderProjects/paintshop/src/PaintShop.Infrastructure/PaintShop.Infrastructure.csproj": {
+              "projectPath": "/home/shuji/RiderProjects/paintshop/src/PaintShop.Infrastructure/PaintShop.Infrastructure.csproj"
             }
           }
         }
