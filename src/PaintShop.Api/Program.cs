@@ -62,4 +62,25 @@ app.MapGet("/products", (IProductRepository repo) =>
     return Results.Ok(items);
 });
 
+app.MapPost("/product", (IProductRepository repo, [FromBody] int productid) =>
+{
+    var items = repo.GetProduct(productid);
+
+    return Results.Ok(items);
+});
+
+app.MapPost("/getReviewsForProduct", (IProductRepository repo, [FromBody] int productid) =>
+{
+    var reviews = repo.GetReviewsByProductId(productid);
+
+    return Results.Ok(reviews);
+});
+
+app.MapPost("/addReviewsForProduct", (IProductRepository repo, [FromBody] Review review) =>
+{
+    repo.AddReviewsForProduct(review);
+
+    return Results.Created("/addReviewsForProduct", review);
+});
+
 app.Run();

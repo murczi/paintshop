@@ -1,11 +1,9 @@
-namespace PaintShop.Infrastructure.Model
+﻿namespace PaintShop.Domain;
+
+public class Review
 {
-    public class ReviewEntity
-    {
         public int Id { get; set; }
         public int ProductId { get; set; }
         public int Stars { get; set; }
         public string Desc { get; set; }
-        public virtual ProductEntity Product { get; set; }
-    }
 }

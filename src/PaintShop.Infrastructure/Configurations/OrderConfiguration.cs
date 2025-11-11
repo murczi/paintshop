@@ -10,5 +10,10 @@ public class OrderConfiguration : IEntityTypeConfiguration<OrderEntity>
     {
         builder.ToTable("Orders");
               builder.HasKey(p => p.Id);
+        
+              
+          builder.HasOne(p=>p.User)
+              .WithMany(u=>u.Orders)
+              .HasForeignKey(o=>o.UserId).IsRequired();
     }
 }

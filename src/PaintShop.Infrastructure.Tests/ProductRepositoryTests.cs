@@ -15,9 +15,13 @@ public class ProductRepositoryTests
         var product = new Product
         {
             Name = "Test Product",
-            Description = "Test Description",
+            ShortDesc = "Test Description",
+            LongDesc = "Test Description",
             Price = 9999,
-            IsEnabled = true
+            IsInside = true,
+            Material = "Test Material",
+            ImageUrl = "Test ImageUrl",
+            StockAmount = 10,
         };
 
         repo.AddNewProduct(product);
@@ -28,7 +32,7 @@ public class ProductRepositoryTests
 
         var saved = products[0];
         Assert.Equal("Test Product", saved.Name);
-        Assert.Equal("Test Description", saved.Description);
+        Assert.Equal("Test Description", saved.ShortDesc);
         Assert.Equal(9999, saved.Price);
     }
 

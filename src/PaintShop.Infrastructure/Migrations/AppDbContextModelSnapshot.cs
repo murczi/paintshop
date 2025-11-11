@@ -22,62 +22,6 @@ namespace PaintShop.Infrastructure.Migrations
 
             MySqlModelBuilderExtensions.AutoIncrementColumns(modelBuilder);
 
-            modelBuilder.Entity("PaintShop.Infrastructure.Model.BrandEntity", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasColumnType("longtext");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Brands", (string)null);
-                });
-
-            modelBuilder.Entity("PaintShop.Infrastructure.Model.ColorEntity", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasColumnType("longtext");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Colors", (string)null);
-                });
-
-            modelBuilder.Entity("PaintShop.Infrastructure.Model.ImageEntity", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<byte[]>("Data")
-                        .IsRequired()
-                        .HasColumnType("longblob");
-
-                    b.Property<int>("ProductId")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("ProductId");
-
-                    b.ToTable("Images", (string)null);
-                });
-
             modelBuilder.Entity("PaintShop.Infrastructure.Model.OrderEntity", b =>
                 {
                     b.Property<int>("Id")
@@ -90,20 +34,12 @@ namespace PaintShop.Infrastructure.Migrations
                         .IsRequired()
                         .HasColumnType("longtext");
 
-                    b.Property<string>("DeliveryType")
-                        .IsRequired()
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("Email")
+                    b.Property<string>("FullName")
                         .IsRequired()
                         .HasColumnType("longtext");
 
                     b.Property<bool>("Paid")
                         .HasColumnType("tinyint(1)");
-
-                    b.Property<string>("PostalCode")
-                        .IsRequired()
-                        .HasColumnType("longtext");
 
                     b.Property<string>("Street")
                         .IsRequired()
@@ -113,7 +49,16 @@ namespace PaintShop.Infrastructure.Migrations
                         .IsRequired()
                         .HasColumnType("longtext");
 
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("char(36)");
+
+                    b.Property<string>("ZipCode")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
                     b.HasKey("Id");
+
+                    b.HasIndex("UserId");
 
                     b.ToTable("Orders", (string)null);
                 });
@@ -126,20 +71,20 @@ namespace PaintShop.Infrastructure.Migrations
 
                     MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("BrandId")
-                        .HasColumnType("int");
+                    b.Property<string>("ImageUrl")
+                        .IsRequired()
+                        .HasColumnType("longtext");
 
-                    b.Property<int>("ColorId")
-                        .HasColumnType("int");
+                    b.Property<bool>("IsInside")
+                        .HasColumnType("tinyint(1)");
 
-                    b.Property<string>("Desc")
-                        .HasMaxLength(100)
-                        .HasColumnType("varchar(100)");
+                    b.Property<string>("LongDesc")
+                        .HasMaxLength(500)
+                        .HasColumnType("varchar(500)");
 
-                    b.Property<bool>("IsEnabled")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("tinyint(1)")
-                        .HasDefaultValue(true);
+                    b.Property<string>("Material")
+                        .IsRequired()
+                        .HasColumnType("longtext");
 
                     b.Property<string>("Name")
                         .HasMaxLength(100)
@@ -148,19 +93,16 @@ namespace PaintShop.Infrastructure.Migrations
                     b.Property<int>("Price")
                         .HasColumnType("int");
 
-                    b.Property<float>("Size")
-                        .HasColumnType("float");
+                    b.Property<string>("ShortDesc")
+                        .HasMaxLength(100)
+                        .HasColumnType("varchar(100)");
 
-                    b.Property<int>("UseCaseId")
-                        .HasColumnType("int");
+                    b.Property<int>("StockAmount")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasDefaultValue(1);
 
                     b.HasKey("Id");
-
-                    b.HasIndex("BrandId");
-
-                    b.HasIndex("ColorId");
-
-                    b.HasIndex("UseCaseId");
 
                     b.ToTable("Product", (string)null);
                 });
@@ -207,50 +149,14 @@ namespace PaintShop.Infrastructure.Migrations
                     b.Property<int>("ProductId")
                         .HasColumnType("int");
 
+                    b.Property<int>("Stars")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
 
                     b.HasIndex("ProductId");
 
                     b.ToTable("Reviews", (string)null);
-                });
-
-            modelBuilder.Entity("PaintShop.Infrastructure.Model.StockEntity", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<int>("Amount")
-                        .HasColumnType("int");
-
-                    b.Property<int>("ProductId")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("ProductId")
-                        .IsUnique();
-
-                    b.ToTable("Stocks", (string)null);
-                });
-
-            modelBuilder.Entity("PaintShop.Infrastructure.Model.UseCaseEntity", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasColumnType("longtext");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("UseCases", (string)null);
                 });
 
             modelBuilder.Entity("PaintShop.Infrastructure.Model.UserEntity", b =>
@@ -273,42 +179,15 @@ namespace PaintShop.Infrastructure.Migrations
                     b.ToTable("User", (string)null);
                 });
 
-            modelBuilder.Entity("PaintShop.Infrastructure.Model.ImageEntity", b =>
+            modelBuilder.Entity("PaintShop.Infrastructure.Model.OrderEntity", b =>
                 {
-                    b.HasOne("PaintShop.Infrastructure.Model.ProductEntity", "Product")
-                        .WithMany("Images")
-                        .HasForeignKey("ProductId")
+                    b.HasOne("PaintShop.Infrastructure.Model.UserEntity", "User")
+                        .WithMany("Orders")
+                        .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Product");
-                });
-
-            modelBuilder.Entity("PaintShop.Infrastructure.Model.ProductEntity", b =>
-                {
-                    b.HasOne("PaintShop.Infrastructure.Model.BrandEntity", "Brand")
-                        .WithMany("Products")
-                        .HasForeignKey("BrandId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("PaintShop.Infrastructure.Model.ColorEntity", "Color")
-                        .WithMany("Products")
-                        .HasForeignKey("ColorId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("PaintShop.Infrastructure.Model.UseCaseEntity", "UseCase")
-                        .WithMany("Products")
-                        .HasForeignKey("UseCaseId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Brand");
-
-                    b.Navigation("Color");
-
-                    b.Navigation("UseCase");
+                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("PaintShop.Infrastructure.Model.ProductsToOrderEntity", b =>
@@ -341,27 +220,6 @@ namespace PaintShop.Infrastructure.Migrations
                     b.Navigation("Product");
                 });
 
-            modelBuilder.Entity("PaintShop.Infrastructure.Model.StockEntity", b =>
-                {
-                    b.HasOne("PaintShop.Infrastructure.Model.ProductEntity", "Product")
-                        .WithOne("Stock")
-                        .HasForeignKey("PaintShop.Infrastructure.Model.StockEntity", "ProductId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Product");
-                });
-
-            modelBuilder.Entity("PaintShop.Infrastructure.Model.BrandEntity", b =>
-                {
-                    b.Navigation("Products");
-                });
-
-            modelBuilder.Entity("PaintShop.Infrastructure.Model.ColorEntity", b =>
-                {
-                    b.Navigation("Products");
-                });
-
             modelBuilder.Entity("PaintShop.Infrastructure.Model.OrderEntity", b =>
                 {
                     b.Navigation("ProductsToOrder");
@@ -369,19 +227,14 @@ namespace PaintShop.Infrastructure.Migrations
 
             modelBuilder.Entity("PaintShop.Infrastructure.Model.ProductEntity", b =>
                 {
-                    b.Navigation("Images");
-
                     b.Navigation("ProductsToOrder");
 
                     b.Navigation("Reviews");
-
-                    b.Navigation("Stock")
-                        .IsRequired();
                 });
 
-            modelBuilder.Entity("PaintShop.Infrastructure.Model.UseCaseEntity", b =>
+            modelBuilder.Entity("PaintShop.Infrastructure.Model.UserEntity", b =>
                 {
-                    b.Navigation("Products");
+                    b.Navigation("Orders");
                 });
 #pragma warning restore 612, 618
         }

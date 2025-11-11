@@ -13,5 +13,9 @@ public class UserConfiguration : IEntityTypeConfiguration<UserEntity>
 
         builder.HasIndex(x => x.Email)
         .IsUnique();
+        
+        builder.HasMany(u=>u.Orders)
+            .WithOne(o=>o.User)
+            .HasForeignKey(o=>o.UserId);
     }
 }
