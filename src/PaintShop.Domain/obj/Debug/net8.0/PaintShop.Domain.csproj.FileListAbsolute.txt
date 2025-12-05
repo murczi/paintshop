@@ -24,3 +24,6 @@
 /home/shuji/RiderProjects/paintshop/src/PaintShop.Domain/obj/Debug/net8.0/refint/PaintShop.Domain.dll
 /home/shuji/RiderProjects/paintshop/src/PaintShop.Domain/obj/Debug/net8.0/PaintShop.Domain.pdb
 /home/shuji/RiderProjects/paintshop/src/PaintShop.Domain/obj/Debug/net8.0/ref/PaintShop.Domain.dll
+/home/shuji/RiderProjects/paintshop/src/PaintShop.Domain/bin/Debug/net8.0/Microsoft.Extensions.Options.dll
+/home/shuji/RiderProjects/paintshop/src/PaintShop.Domain/bin/Debug/net8.0/Microsoft.Extensions.Options.xml
+/home/shuji/RiderProjects/paintshop/src/PaintShop.Domain/obj/Debug/net8.0/PaintSho.C5B14AD6.Up2Date

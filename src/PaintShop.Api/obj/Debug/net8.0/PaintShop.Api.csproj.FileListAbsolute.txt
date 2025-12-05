@@ -284,3 +284,12 @@
 /home/shuji/RiderProjects/paintshop/src/PaintShop.Api/obj/Debug/net8.0/PaintShop.Api.pdb
 /home/shuji/RiderProjects/paintshop/src/PaintShop.Api/obj/Debug/net8.0/PaintShop.Api.genruntimeconfig.cache
 /home/shuji/RiderProjects/paintshop/src/PaintShop.Api/obj/Debug/net8.0/ref/PaintShop.Api.dll
+/home/shuji/RiderProjects/paintshop/src/PaintShop.Api/bin/Debug/net8.0/BCrypt.Net-Next.dll
+/home/shuji/RiderProjects/paintshop/src/PaintShop.Api/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/home/shuji/RiderProjects/paintshop/src/PaintShop.Api/bin/Debug/net8.0/Microsoft.IdentityModel.Abstractions.dll
+/home/shuji/RiderProjects/paintshop/src/PaintShop.Api/bin/Debug/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/home/shuji/RiderProjects/paintshop/src/PaintShop.Api/bin/Debug/net8.0/Microsoft.IdentityModel.Logging.dll
+/home/shuji/RiderProjects/paintshop/src/PaintShop.Api/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.dll
+/home/shuji/RiderProjects/paintshop/src/PaintShop.Api/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/home/shuji/RiderProjects/paintshop/src/PaintShop.Api/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll
+/home/shuji/RiderProjects/paintshop/src/PaintShop.Api/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll

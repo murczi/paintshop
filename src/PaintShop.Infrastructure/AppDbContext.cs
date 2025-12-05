@@ -13,6 +13,8 @@ public class AppDbContext : DbContext
     public virtual DbSet<ReviewEntity> Review { get; set; }
     public virtual DbSet<OrderEntity> Order { get; set; }
     public virtual DbSet<ProductsToOrderEntity> ProductsToOrder { get; set; }
+    public virtual DbSet<FaqEntity> Faq { get; set; }
+    public virtual DbSet<CouponEntity> Coupon { get; set; }
 
     protected override void OnModelCreating(ModelBuilder builder)
     {
@@ -21,5 +23,7 @@ public class AppDbContext : DbContext
         builder.ApplyConfiguration(new ReviewConfiguration());
         builder.ApplyConfiguration(new OrderConfiguration());
         builder.ApplyConfiguration(new ProductsToOrderConfiguration());
+        builder.ApplyConfiguration(new FaqConfiguration());
+        builder.ApplyConfiguration(new CouponConfiguration());
     }
 }

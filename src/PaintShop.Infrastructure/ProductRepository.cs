@@ -76,6 +76,19 @@ public class ProductRepository : BaseRepository, IProductRepository
             };
         return reviewsFromDb;
     }
+
+    public IEnumerable<Faq> GetFaq()
+    {
+        var faqFromDb = from p in context.Faq
+            select new Faq
+            {
+                Id = p.Id,
+                Question = p.Question,
+                Answer = p.Answer,
+            };
+        return faqFromDb;
+    }
+
     
     public void AddReviewsForProduct(Review reviewModel)
     {

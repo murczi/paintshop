@@ -22,6 +22,50 @@ namespace PaintShop.Infrastructure.Migrations
 
             MySqlModelBuilderExtensions.AutoIncrementColumns(modelBuilder);
 
+            modelBuilder.Entity("PaintShop.Infrastructure.Model.CouponEntity", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("DiscountAmount")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Value")
+                        .IsRequired()
+                        .HasMaxLength(10)
+                        .HasColumnType("varchar(10)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Coupon", (string)null);
+                });
+
+            modelBuilder.Entity("PaintShop.Infrastructure.Model.FaqEntity", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Answer")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("varchar(200)");
+
+                    b.Property<string>("Question")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("varchar(200)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Faq", (string)null);
+                });
+
             modelBuilder.Entity("PaintShop.Infrastructure.Model.OrderEntity", b =>
                 {
                     b.Property<int>("Id")
@@ -39,7 +83,7 @@ namespace PaintShop.Infrastructure.Migrations
                         .HasColumnType("longtext");
 
                     b.Property<bool>("Paid")
-                        .HasColumnType("tinyint(1)");
+                        .HasColumnType("bit(1)");
 
                     b.Property<string>("Street")
                         .IsRequired()
@@ -76,7 +120,7 @@ namespace PaintShop.Infrastructure.Migrations
                         .HasColumnType("longtext");
 
                     b.Property<bool>("IsInside")
-                        .HasColumnType("tinyint(1)");
+                        .HasColumnType("bit(1)");
 
                     b.Property<string>("LongDesc")
                         .HasMaxLength(500)

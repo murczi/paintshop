@@ -7,6 +7,6 @@ public interface IProductRepository
     void AddNewProduct(Product product);
     void AddReviewsForProduct(Review reviewModel);
     IEnumerable<Review> GetReviewsByProductId(int productId);
-
+    IEnumerable<Faq> GetFaq();
 
 }
